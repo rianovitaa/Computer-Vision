@@ -1,7 +1,24 @@
 # Computer-Vision
-As of July 2023, both Apple and Samsung lead the smartphone industry worldwide, with a combined 52.61% of the total market share (ref1). As the main feature that must be present on today's smartphones, Apple and Samsung are competing to create camera technology so you can capture your best photo even in the low light condition.
+Computer vision adalah bidang ilmu komputer yang berkaitan dengan pengembangan teknologi yang memungkinkan komputer untuk memahami dan menganalisis gambar dan video digital. Tujuan utama dari computer vision adalah untuk membuat komputer dapat "melihat" dan "mengerti" dunia visual seperti manusia. Bidang ini mencakup berbagai tugas, termasuk:
 
-* In September 2019, Apple introduced Deep Fusion technology (via the iPhone 11 series) to tackle the challenge. Its upgrade, named Photonic Engine, was introduced in September 2022 via the new iPhone 14 series (ref2).
-* In February 2023, Samsung introduced Adaptive Tetra-squared Pixel Sensor technology with the Samsung S23 series as a counter-solution to a similar problem, promising excellent bright photo results from dark-toned images (ref3).
-  
-At its core, both technologies work by combining several adjacent pixels into a single pixel, using a Max Pooling operation. In this case, you are challenged to replicate the concept (brighten dark-toned photos), and then compare the result with another approach, i.e., Contrast Limited Adaptive Histogram Equation (CLAHE).
+1. Pengenalan objek: Identifikasi dan klasifikasi objek dalam gambar atau video. Ini dapat mencakup deteksi wajah, pengenalan karakteristik objek, atau identifikasi objek dalam lingkungan yang kompleks.
+
+2. Pemantauan dan pelacakan: Melacak pergerakan objek dalam video, seperti pelacakan kendaraan di jalan atau pelacakan gerakan manusia dalam aplikasi pengawasan.
+
+3. Segmentasi gambar: Memisahkan gambar menjadi bagian-bagian yang berbeda berdasarkan atribut tertentu, seperti memisahkan objek dari latar belakangnya.
+
+4. Rekonstruksi 3D: Membangun model tiga dimensi dari objek atau lingkungan berdasarkan gambar 2D.
+
+5. Pengenalan pola: Mengidentifikasi pola, tekstur, atau fitur khusus dalam gambar.
+
+6. Augmented Reality (AR): Menggabungkan elemen dunia nyata dengan elemen virtual, seperti menambahkan informasi tambahan ke tampilan kamera ponsel.
+
+7. Pengolahan citra medis: Menganalisis gambar medis untuk tujuan diagnostik, seperti deteksi tumor dalam gambar MRI atau CT scan.
+
+8. Pengenalan tulisan tangan: Mengkonversi tulisan tangan menjadi teks yang dapat dibaca oleh komputer.
+
+9. Identifikasi wajah: Mengenali wajah manusia dalam gambar dan video, yang digunakan dalam aplikasi keamanan, pengenal wajah, dan banyak lainnya.
+
+10. Pengenalan aksi: Memahami aktivitas manusia dalam video, seperti mengenali gestur, aktivitas olahraga, atau tindakan lainnya.
+
+Computer vision digunakan dalam berbagai aplikasi, termasuk kendaraan otonom, pengenalan plat nomor, pengawasan keamanan, perawatan kesehatan, manufaktur otomatis, dan banyak lagi. Untuk mencapai tujuan ini, computer vision menggabungkan berbagai teknik seperti pemrosesan citra, pengenalan pola, deep learning, dan pengolahan sinyal digital untuk menginterpretasi dan memahami data visual.
